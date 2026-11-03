@@ -1,0 +1,537 @@
+MODULE 1 ACTIVITY 2 
+1.Scheme,https
+sub domain,blog
+domain name,ibunhamis.ac.ug
+path,/news/2020/
+query string,category=exams
+fragment,#top
+ 
+2.https://www.mru.ac.ug/admissions/apply?programme=degree#
+form
+Scheme:https
+Sub domain:www
+Domain:mru.ac.ug
+Path:/admissions/apply
+Query string:programme=degree
+Fragment:#form
+
+3.If the scheme was removed the browsere will not know if it is https
+. If domain was misspelled the user will go a wrong website
+
+ACTIVITY 3
+ We used MRU website 
+
+site map of mru website 
+Home page 
+1. About us->Our history,University counsil
+2.Academics->Faculties,courses,academic calendar
+3.Admissions->Apply online,admission requirements,fees structure
+4.Student life->E-learning portal,library,contact us
+
+ACTIVITY.4-Navigation audit
+site 1:MRU -https://mru.ac.ug
+site 2:Makerere university-https://mak.ac.ug
+
+Navigation patterns 
+MRU:top bar+Dropdown menu+footer links.
+MAK:Topbar+dropdown+breadcrumbs+sidebar+footer+searchbox
+
+3.Consistency:both good-menu stays the same everywhere
+Clarity:Makerere better because it labels clearer and has search 
+Visibility:Makerere better because it has breadcrumbs  shows  that you are here
+
+Strength:simple,clean top menu,quick access to student portal
+weakness:no breadcrumbs,no clear search bar,on mobile menu is hidden making new users made lost 
+
+ACTIVITY 5
+2.a.Planning:who the website is for?MRU students,parents,applicants,what do they need?admission info,fees,courses.
+b.Analysis:imterview MRUregistrar,students,list content:courses list,admission forms
+c.Design:sketch site map,choose colours,make wireflame
+d.Development:build in HTML/CSS,add pages,link student portal,e-learning
+e.Testing:checking linkswork,test on phone,test admission form, check speed,check spellings
+f.Development and maintenance:put live on mru.ac.ug,train MRU IT staff,update news every week.
+
+3.if testing was skipped:
+Broken links:students click apply and get errors
+Forms not working:no student can apply,university looses students
+Site may not work on phones:most ugandan students use phones
+Security errors:hackers can enter
+Embarassment:wrong fees shown,spelling mistakes damage university reputation
+
+MODULE 2 ACTIVITY 1 Basic skeleton.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GROUP B</title>
+</head>
+<body>
+<h1>groupB</h1>
+<p>made of 3 members</p>
+<img srcset=""src=""alt="">
+<ul>
+<li>reading cooking swimming</li>
+</ul>
+<a href="">petermugunga5@gmail.com</a>
+<haeder>
+<h1>NAGADDYA REGINA</h1>
+<p>26/U/DIT/0001/M/D</P>
+</header>
+<footer>
+<p>KIWANUKA PETER</p>
+</footer>
+<h4>4columns</h4>
+<table border="1">
+<tr>
+<th>name of patients</th>
+<th>age</th>
+<th>drug</th>
+<th>quantity</th>
+</tr>
+<tr>
+<td>Dan</td>
+<td>21</td>
+<td>paracentamol</td>
+<td>500g</td>
+</tr>
+<tr>
+<td>ragina</td>
+<td>22</td>
+<td>aspirin</td>
+<td>300g</td>
+</tr>
+<tr>
+<td>peters</td>
+<td>22</td>
+<td>ibuprofen</td>
+<td>700g</td>
+</tr>
+</table>
+</body>
+</html>
+MODULE 3 
+1.	https://mru.ac.ug
+2.	Visibility of the system status
+Consistency and standards
+Error prevention
+Aesthetic and minimalist design 
+3.	
+heuristic	What mru does best	What it can improve
+Visibility of system status 	Academics are highlighted ie it shows the menu that you are on	Students portal takes long to load when clicked
+Consistency and standards	Logo and main menu is the same on all pages	Some pages have different  font sizes
+Error prevention	Clear apply online in that user doesn’t get lost	No warning to prevent errors
+Aesthetic and minimalist design	Home page contains university colours and motto	Images are too crowded on homepage
+4.	BEST FINDING ;site is consistent but needs better visibility
+
+
+ACTIVITY 2
+1)	Sub menu needs double touch
+2)	200%zoom:text is readable but menu becomes narrow
+3)	All 3 images have empty alt=””
+4)	Issue 1.no visible focus when tabbing. FIX.add a yellow outline
+Issue2.missing alt text
+
+ACTIVITY 3
+a.	Name: Nagaddya Regina,21,S6 leaver,Masaka.Goal:check courses and fees,apply online.Frustration  site slow on phone .Device android
+b.	Design decision:put a big button”view fees and courses “on the top left of the page
+
+ACTIVITY 4
+a)	Top left pattern has logo and slider not so important information.
+RECCOMENDATION:move ‘admissions open apply now”to top left
+
+ACTIVITY 5
+Good repetition of blue colour but weak contrast and weak proximity of related links. Fix contrast and group related links together
+
+MODULE 5 ACTIVITY1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>contact-GROUP B</title>
+</head>
+<body>
+<h1>contact me</h1>
+<form>
+<label for="name">Full name:</label><br>
+<input type="text" id="name" name="name"required<>br><br>
+<lable for="email">Email address:</label><br>
+<input type="email" id="email" name="email" required><br><br>
+<label for="message">message:</label><br>
+<textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+<button type="submit">send message</button>
+</form>
+</body>
+</html>
+
+ACTIVITY 6
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Contact Page - Nagaddya Regina</title>
+    <style>
+        body { font-family: Arial; margin: 0; }
+        header { background: #0d2a54; color: white; padding: 20px; text-align: center; }
+        nav { background: #eee; padding: 10px; text-align: center; }
+        main { display: flex; flex-wrap: wrap; padding: 20px; }
+        section { flex: 2; padding: 15px; }
+        aside { flex: 1; padding: 15px; background: #f9f9f9; }
+        footer { background: #0d2a54; color: white; text-align: center; padding: 15px; }
+        label { font-weight: bold; }
+        input, textarea, select { width: 90%; padding: 8px; margin-top: 5px; }
+        iframe, video { max-width: 100%; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Nagaddya Regina</h1>
+        <p>Student at Muteesa I Royal University</p>
+    </header>
+    <nav>
+        <a href="#form">Form</a> | <a href="#map">Map</a> | <a href="#faq">FAQ</a>
+    </nav>
+    <main>
+        <section id="form">
+            <h2>Send Me a Message</h2>
+            <form>
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" required><br><br>
+
+                    <label for="course">Course Interest:</label><br>
+                    <select id="course">
+                        <option>IT</option><option>Business</option><option>Education</option><option>Nursing</option>
+                    </select><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" rows="4"></textarea><br><br>
+                    
+                    <input type="checkbox" id="agree">
+                    <label for="agree">I confirm my information is correct</label><br><br>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+
+            <h2 id="map">Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.752!2d32.582!3d0.316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sMuteesa!5e0!3m2!1sen!2sug!4v1"
+                width="500" height="300" title="MRU Campus Map" loading="lazy"></iframe>
+
+            <h2>Introduction Video</h2>
+            <video controls width="400" poster="images/photo.jpg">
+                <source src="media/video.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <aside>
+            <h3 id="faq">FAQ</h3>
+            <details>
+                <summary>How can I contact you?</summary>
+                <p>Use the form on this page. I will reply via email.</p>
+            </details>
+            <details>
+                <summary>Where do you study?</summary>
+                <p>Muteesa I Royal University, Masaka Campus.</p>
+            </details>
+            <audio controls style="margin-top:20px; width:100%">
+                <source src="media/audio.mp3" type="audio/mpeg">
+            </audio>
+            <p>Listen to my welcome message</p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2026 Nagaddya Regina | Accessibility: All inputs have labels (for/id) | Optimization: Map uses loading="lazy" and video uses poster image</p>
+    </footer>
+</body>
+</html>
+
+Module 6.
+
+
+Exercise 1
+1.
+<div class="container">
+<div class="row">
+<div class="col">Box 1</div>
+<div class="col">Box 2</div>
+<div class="col">Box 3</div>
+</div>
+</div>
+
+2.
+*{box-sizing:border-box:}/*This makes padding not increase with width*/
+.container {width:90%:margin:auto:}
+.row {display:flex:gap:10px:}
+.col {flex:1:padding:20px:border:2px solid black: blackground:lightblue:}
+#unique-box {background:orange:font-bold:}
+
+3.
+Add id="unique-box"to one of the cols.
+
+Exercise 2 
+.parent-card {position: relative: width: 300px: 1px solid #ccc: padding: 20px: }
+.badge { position: absolute: top:-10px: right: -10px background: red: color: white: border-radius: 50%: padding: 5px 10px:}
+
+.back-to-top {position: fixed: bottom: 20px: right: 20px: background: black: color: white: padding: 10px: }
+header { position: sticky:top: 0: background: white: padding: 15px: border-bottom: 1px solid #ccc:}
+
+
+Exercise 3 
+ <nav>
+<ul class="nav-list">
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#"><Contact</a></li>
+</ul>
+</nav>
+
+.nav-list { list-style: name: display: flex: gap: 20px: }
+.nav-list a-hover { background-color: lightblue: }
+.article  { column-count: 3: column-gap: 30px: }
+
+
+
+Exercise 4 
+
+.layout  { display: flex: flex-direction: column: }
+nav, aside { background: #eee: padding: 20px: }
+main  { background: #ddd: padding: 20px: }
+
+
+@media (min-width: 768px)
+{.layout { flex-direction: row: }
+nav { width: 20%: }
+main { width: 60%: }
+aside { width: 20%: }
+}
+
+
+
+Exercise 5 
+
+.card-container { display: flex: flex-wrap: gap: 15px: justify-content:center: align-items: stretch: }
+.card { width: 200px: border: 1px solid: }
+.card:hover { transform: tranbsformY(-10px): box-shadowo 5px 15px rgba(0,0,0,0.2): }
+
+MODULE 7
+Session 1.
+Project title:Glamour Touch Unisex Saloon Kampala
+
+Goal:To attract customers who come on site and those who book online,show services,prices and mange bookings
+
+Session 2.
+1.Site map:
+home-about-services-gallery-contact/booknow
+2.Folder structure:
+/glamour-saloon
+/css/style.css
+/image
+index.html
+About.html
+Services.html
+gallery.html
+contact.html
+
+3. Style for saloon.
+. colours:Pink#E91E63(primary),black#212121,white#FFFFFF,gold3FFC107 for accents
+. fonts: Poppins from google fonts 
+. file naming: all lowercase
+
+4.Task division
+.Nagaddya Regina:index.html+header/footer for all pages
+.Kiwanuka Peter:services.html+gallery.html+CSS responsive
+.Mugula Daniel:about.html+contact.html+booking for validation
+.ALL:write all texts,prices,and prepare presentation slides
+
+Session 3
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glamour Touch Saloon</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <h1>Glamour Touch</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Book Now</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Look Good, Feel Confident</h2>
+  <p>Unisex Saloon in Kampala - Braids, Cuts, Makeup, Nails</p>
+  <a href="contact.html" class="btn">Book Appointment</a>
+</section>
+
+<footer>
+  <p>&copy; 2026 Glamour Touch Saloon, Kampala</p>
+</footer>
+</body>
+</html>
+
+STYLE
+
+* {margin:0; padding:0; box-sizing:border-box; font-family: 'Poppins', sans-serif;}
+header {background:#212121; color:white; padding:15px; display:flex; justify-content:space-between; align-items:center;}
+nav a {color:white; margin:0 10px; text-decoration:none;}
+.hero {background: #E91E63; color:white; text-align:center; padding:80px 20px;}
+.btn {background:#FFC107; color:#212121; padding:10px 20px; text-decoration:none; border-radius:5px; font-weight:bold;}
+/* Responsive */
+@media(max-width: 768px){
+  header {flex-direction:column;}
+  nav {margin-top:10px;}
+}
+STYLE
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glamour Touch Saloon - Practical Project Answer</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#fdfdfd;color:#212121;line-height:1.6;}
+header{background:#212121;color:white;padding:15px 5%;position:sticky;top:0;z-index:100;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;}
+header h1{color:#E91E63;font-size:22px;}
+nav a{color:white;text-decoration:none;margin-left:12px;font-size:14px;}
+nav a:hover{color:#E91E63;}
+.hero{background:linear-gradient(rgba(233,30,99,0.9),rgba(33,33,33,0.8)),url('https://images.unsplash.com/photo-1560869713-7d0a29430803');background-size:cover;color:white;text-align:center;padding:80px 20px;}
+.btn{background:white;color:#E91E63;padding:12px 25px;border-radius:25px;text-decoration:none;font-weight:bold;display:inline-block;margin-top:15px;}
+section{padding:50px 5%;border-bottom:1px solid #eee;}
+h2{color:#E91E63;margin-bottom:15px;border-left:5px solid #E91E63;padding-left:10px;}
+h3{margin:20px 0 10px;color:#212121;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:20px;}
+.card{background:white;border:1px solid #ffe0ea;border-radius:12px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,0.05);}
+.card h4{color:#E91E63;}
+.sitemap{background:#212121;color:#E91E63;padding:20px;border-radius:10px;text-align:center;font-weight:bold;letter-spacing:1px;}
+.wireframe{border:2px dashed #E91E63;padding:15px;border-radius:10px;display:flex;gap:10px;flex-wrap:wrap;justify-content:center;}
+.wireframe div{border:1px solid #ccc;background:#FFF3F8;padding:10px;width:120px;text-align:center;font-size:12px;}
+table{width:100%;border-collapse:collapse;margin-top:15px;}
+th,td{border:1px solid #ddd;padding:10px;text-align:left;}
+th{background:#E91E63;color:white;}
+footer{background:#212121;color:#ccc;text-align:center;padding:30px 20px;}
+ul{margin-left:20px;}
+@media(max-width:768px){header{flex-direction:column} nav{margin-top:10px} .hero{padding:50px 20px}}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Glamour Touch Saloon</h1>
+<nav>
+<a href="#s1">Session 1</a>
+<a href="#s2">Session 2</a>
+<a href="#s3">Session 3</a>
+<a href="#s4">Session 4</a>
+<a href="#s5">Session 5</a>
+</nav>
+</header>
+
+<div class="hero">
+<h2>LOOK GOOD, FEEL CONFIDENT</h2>
+<p>Practical Module Project — Unisex Saloon in Seeta, Kampala</p>
+<a href="#s1" class="btn">View Project Journey</a>
+</div>
+
+<!-- SESSION 1 -->
+<section id="s1">
+<h2>Session 1 — Group Formation & Topic Selection</h2>
+<div class="grid">
+<div class="card"><h4>1. Team of 3-4</h4><p>We formed team of 4. WhatsApp group created for coordination.</p></div>
+<div class="card"><h4>2. Topic Agreed</h4><p>Topic: Glamour Touch Unisex Saloon. Reason: Easy to show services, gallery, and booking form for grading.</p></div>
+<div class="card"><h4>3. Roles Assigned</h4><p><b>Lead:</b> Sarah - time & instructor<br><b>Designer:</b> John - colors & wireframes<br><b>Developer:</b> Grace - HTML/CSS<br><b>Content:</b> Musa - text & presentation</p></div>
+</div>
+</section>
+
+<!-- SESSION 2 -->
+<section id="s2">
+<h2>Session 2 — Planning & Wireframing (Module 1 & 3)</h2>
+<h3>A) Site Map</h3>
+<div class="sitemap">HOME > ABOUT > SERVICES > GALLERY > CONTACT / BOOK NOW</div>
+
+<h3>B) Wireframe for Key Pages</h3>
+<div class="wireframe">
+<div>HEADER<br>Logo | Menu</div>
+<div>HERO<br>Image + Book Button</div>
+<div>CONTENT<br>Services / Price / Form</div>
+<div>FOOTER<br>Contact & Social</div>
+</div>
+
+<h3>C) Agreed Standards</h3>
+<table>
+<tr><th>Item</th><th>Choice</th><th>Reason</th></tr>
+<tr><td>Folder Structure</td><td>/css, /images, index.html, about.html, services.html, gallery.html, contact.html</td><td>For easy teamwork</td></tr>
+<tr><td>File Naming</td><td>lowercase, no spaces e.g. contact.html</td><td>Module 2 rule</td></tr>
+<tr><td>Colours</td><td>Pink #E91E63, Black #212121, White #FFFFFF</td><td>Pink=beauty, Black=classy</td></tr>
+<tr><td>Typography</td><td>Poppins, 16px body</td><td>Readable & modern</td></tr>
+</table>
+
+<h3>D) Task Division</h3>
+<ul>
+<li>Person A: index.html + Header/Footer for all</li>
+<li>Person B: services.html + gallery.html + Responsive CSS</li>
+<li>Person C: about.html + contact.html + Form validation</li>
+<li>Person D: Write content + Prepare slides</li>
+</ul>
+</section>
+
+<!-- SESSION 3 -->
+<section id="s3">
+<h2>Session 3 — Development Sprint (Modules 2-6)</h2>
+<div class="grid">
+<div class="card"><h4>1. Build Pages</h4><p>Applied HTML5 semantic tags (header, section, footer), CSS Flexbox & Grid, responsive design with @media (max-width:768px), and images from Module 6.</p></div>
+<div class="card"><h4>2. Check Consistency</h4><p>We check every hour: same header/footer, same button style .btn, same pink color. Checked via GitHub/Drive share.</p></div>
+<div class="card"><h4>3. Test in Browser</h4><p>Tested in Chrome + phone. Resized window to check mobile. Fixed overflow issues. All links and images now work.</p></div>
+</div>
+<h3>Responsive Code Used:</h3>
+<p style="background:#212121;color:#0f0;padding:15px;border-radius:8px;font-family:monospace;font-size:13px;">@media(max-width:768px){ header{flex-direction:column;} .grid{grid-template-columns:1fr;} }</p>
+</section>
+
+<!-- SESSION 4 -->
+<section id="s4">
+<h2>Session 4 — Rehearsal & Peer Feedback</h2>
+<ul>
+<li><b>Full Run-through:</b> Assembled all 5 pages. Checked every link (Home>About>Services>Gallery>Contact), every image, and booking form.</li>
+<li><b>Rehearsal:</b> Timed 12 minutes: Intro (2min), Demo (6min), Challenges (2min), Q&A (2min).</li>
+<li><b>Peer Feedback:</b> Exchanged site with Group B. They used grading rubric: We scored high on mobile responsive, needed to fix gallery image sizes. Fixed.</li>
+</ul>
+</section>
+
+<!-- SESSION 5 -->
+<section id="s5">
+<h2>Session 5 — Presentations</h2>
+<div class="grid">
+<div class="card"><h4>1. Live Demo</h4><p>Show this page + open saloon pages. Explain site map to final site.</p></div>
+<div class="card"><h4>2. Q&A Ready</h4><p>Q: Why pink? A: Appeals to beauty clients. Q: How responsive? A: Flexbox + Grid + Media Queries.</p></div>
+<div class="card"><h4>3. Self & Peer Assessment</h4><p>Each member rates own contribution and teammates on timekeeping, coding, design as per Lencioni (2002) team roles.</p></div>
+</div>
+
+<h3>References & Further Reading (As per Guide)</h3>
+<p style="font-size:13px;color:#555;">
+- Robbins, J. (2018). Beginner's Guide to HTML, CSS, JavaScript... (Primary)<br>
+- Ritter, M. & Winterbottom, C. (2017). UX for the Web.<br>
+- Duarte, N. (2010). Resonate: Present Visual Stories... (Presentation)<br>
+- Lencioni, P. (2002). Five Dysfunctions of a Team. (Team roles)
+</p>
+</section>
+
+<footer>
+<p>&copy; 2026 Glamour Touch Saloon — Practical Session Answer | Seeta, Kampala</p>
+</footer>
+
+</body>
+</html>
